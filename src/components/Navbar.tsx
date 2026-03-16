@@ -43,7 +43,7 @@ export default function Navbar() {
             className="flex items-center gap-1 text-sm bg-white/10 px-3 py-1 rounded-full hover:bg-white/20 transition"
           >
             <FaGlobe />
-            {i18n.language === 'es' ? 'EN' : 'ES'}
+            {i18n.language === 'es' ? 'ES' : 'EN'}
           </button>
         </div>
 
@@ -73,7 +73,7 @@ export default function Navbar() {
             className="flex items-center gap-1 text-sm bg-white/10 px-3 py-1 rounded-full"
           >
             <FaGlobe />
-            {i18n.language === 'es' ? 'EN' : 'ES'}
+            {i18n.language === 'es' ? 'ES' : 'EN'}
           </button>
         </div>
       )}
