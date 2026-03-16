@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "sterilization": "Sterilization",
+    "grooming": "Grooming",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "We care for your pet like family",
+    "subtitle": "Full-service veterinary clinic in Juan Díaz, Panama",
+    "cta": "Book an appointment"
+  },
+  "services": {
+    "title": "Our Services",
+    "clinic": "Veterinary Clinic",
+    "clinicDesc": "Consultations, diagnostics and treatments for your pet",
+    "lab": "Laboratory",
+    "labDesc": "Fast and reliable clinical analysis",
+    "pharmacy": "Pharmacy",
+    "pharmacyDesc": "Veterinary medications and supplements",
+    "petshop": "Pet Shop",
+    "petshopDesc": "Food, accessories and products for your pet",
+    "grooming": "Grooming / Hotel",
+    "groomingDesc": "Bath, grooming and boarding for your companion",
+    "funeral": "Funeral Arrangements & Cremations",
+    "funeralDesc": "Dignified and respectful farewell service for your pet"
+  },
+  "sterilization": {
+    "title": "Sterilization",
+    "dogs": "Dogs",
+    "cats": "Cats",
+    "requirements": "Requirements",
+    "req1": "12-hour fasting",
+    "req2": "Not nursing",
+    "req3": "Not in heat",
+    "req4": "Older than 5 months"
+  },
+  "groomingSection": {
+    "title": "Grooming",
+    "service": "Service",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "bathCutRegular": "Bath & Cut Regular",
+    "bathCutMedicated": "Bath & Cut Medicated",
+    "bathMedicated": "Medicated Bath",
+    "bathDeshedding": "Bath & Deshedding",
+    "bathChihuahua": "Chihuahua Bath",
+    "bathFeline": "Feline Bath"
+  },
+  "about": {
+    "title": "About Us",
+    "text1": "At Veterinaria Vida+ we are dedicated to the comprehensive care of your pet. Our team of professionals has the experience and commitment to provide quality care.",
+    "text2": "Located in Juan Díaz, Ciudad Radial, we are your trusted veterinary clinic with all the services your pet needs under one roof."
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "t1": "Excellent care for my puppy. The doctor is very kind and professional.",
+    "t1Author": "María G.",
+    "t2": "Fair prices and the grooming service makes my cat look beautiful.",
+    "t2Author": "Carlos R.",
+    "t3": "The best veterinary clinic in Juan Díaz. Always attentive and caring with pets.",
+    "t3Author": "Ana P."
+  },
+  "gallery": {
+    "title": "Gallery"
+  },
+  "contact": {
+    "title": "Contact & Location",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "address": "Address",
+    "addressText": "Juan Díaz, Ciudad Radial, Radiant Plaza, Local 1 & 2",
+    "hours": "Hours",
+    "hoursText": "Monday to Saturday: 8:00 AM - 6:00 PM",
+    "followUs": "Follow us"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

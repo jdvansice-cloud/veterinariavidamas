@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "sterilization": "Esterilización",
+    "grooming": "Peluquería",
+    "about": "Nosotros",
+    "gallery": "Galería",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Cuidamos a tu mascota como parte de la familia",
+    "subtitle": "Clínica veterinaria con servicios completos en Juan Díaz, Panamá",
+    "cta": "Agenda tu cita"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "clinic": "Clínica Veterinaria",
+    "clinicDesc": "Consultas, diagnósticos y tratamientos para tu mascota",
+    "lab": "Laboratorios",
+    "labDesc": "Análisis clínicos con resultados rápidos y confiables",
+    "pharmacy": "Farmacia",
+    "pharmacyDesc": "Medicamentos y suplementos veterinarios",
+    "petshop": "Pet Shop",
+    "petshopDesc": "Alimentos, accesorios y productos para tu mascota",
+    "grooming": "Peluquería / Hotel",
+    "groomingDesc": "Baño, corte y hospedaje para tu compañero",
+    "funeral": "Arreglos Funerarios y Cremaciones",
+    "funeralDesc": "Servicio digno y respetuoso para despedir a tu mascota"
+  },
+  "sterilization": {
+    "title": "Esterilización",
+    "dogs": "Perros",
+    "cats": "Gatos",
+    "requirements": "Requisitos",
+    "req1": "Ayuno de 12 horas",
+    "req2": "No lactantes",
+    "req3": "No en celo",
+    "req4": "Mayor a 5 meses"
+  },
+  "groomingSection": {
+    "title": "Peluquería",
+    "service": "Servicio",
+    "small": "Pequeño",
+    "medium": "Mediano",
+    "large": "Grande",
+    "bathCutRegular": "Baño y corte Regular",
+    "bathCutMedicated": "Baño y corte Medicado",
+    "bathMedicated": "Baño Medicado",
+    "bathDeshedding": "Baño y deslanado",
+    "bathChihuahua": "Baño Chihuahua",
+    "bathFeline": "Baño Felino"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "text1": "En Veterinaria Vida+ nos dedicamos al cuidado integral de tu mascota. Nuestro equipo de profesionales cuenta con la experiencia y el compromiso para ofrecer atención de calidad.",
+    "text2": "Ubicados en Juan Díaz, Ciudad Radial, somos tu clínica veterinaria de confianza con todos los servicios que tu mascota necesita bajo un mismo techo."
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros clientes",
+    "t1": "Excelente atención para mi perrito. El doctor es muy amable y profesional.",
+    "t1Author": "María G.",
+    "t2": "Los precios son justos y el servicio de peluquería deja a mi gato hermoso.",
+    "t2Author": "Carlos R.",
+    "t3": "La mejor veterinaria de Juan Díaz. Siempre atentos y cariñosos con las mascotas.",
+    "t3Author": "Ana P."
+  },
+  "gallery": {
+    "title": "Galería"
+  },
+  "contact": {
+    "title": "Contacto y Ubicación",
+    "phone": "Teléfono",
+    "whatsapp": "WhatsApp",
+    "address": "Dirección",
+    "addressText": "Juan Díaz, Ciudad Radial, Radiant Plaza, Local 1 y 2",
+    "hours": "Horario",
+    "hoursText": "Lunes a Sábado: 8:00 AM - 6:00 PM",
+    "followUs": "Síguenos"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}
