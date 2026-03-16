@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { FaDog, FaCat } from 'react-icons/fa'
+import { DogIllustration, CatIllustration } from './illustrations'
 
 export default function Sterilization() {
   const { t } = useTranslation()
@@ -14,12 +14,12 @@ export default function Sterilization() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white/10 backdrop-blur rounded-2xl p-8 text-center">
-            <FaDog className="text-5xl mx-auto mb-4" />
+            <DogIllustration className="w-24 h-24 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-2">{t('sterilization.dogs')}</h3>
             <div className="text-5xl font-extrabold text-accent">$65<span className="text-2xl">.00</span></div>
           </div>
           <div className="bg-white/10 backdrop-blur rounded-2xl p-8 text-center">
-            <FaCat className="text-5xl mx-auto mb-4" />
+            <CatIllustration className="w-24 h-24 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-2">{t('sterilization.cats')}</h3>
             <div className="text-5xl font-extrabold text-accent">$45<span className="text-2xl">.00</span></div>
           </div>

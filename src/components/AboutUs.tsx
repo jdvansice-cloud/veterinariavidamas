@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { FaShieldAlt, FaHandHoldingHeart, FaClock } from 'react-icons/fa'
+import { VetTeam } from './illustrations'
 
 export default function AboutUs() {
   const { t } = useTranslation()
@@ -10,6 +11,8 @@ export default function AboutUs() {
         <h2 className="text-3xl md:text-4xl font-extrabold text-center text-primary mb-12">
           {t('about.title')}
         </h2>
+
+        <VetTeam className="w-64 md:w-80 h-auto mx-auto mb-10" />
 
         <div className="max-w-3xl mx-auto text-center mb-12">
           <p className="text-lg text-gray-700 mb-4">{t('about.text1')}</p>

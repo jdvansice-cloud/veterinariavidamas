@@ -1,12 +1,25 @@
 import { useTranslation } from 'react-i18next'
+import {
+  GalleryConsultation,
+  GalleryGrooming,
+  GallerySurgery,
+  GalleryPetshop,
+  GalleryFamily,
+  GalleryPlaytime,
+} from './illustrations'
+import type { ComponentType } from 'react'
 
-const placeholders = [
-  { bg: 'bg-primary/20', emoji: '🐕' },
-  { bg: 'bg-accent/20', emoji: '🐈' },
-  { bg: 'bg-green-200', emoji: '🐾' },
-  { bg: 'bg-blue-200', emoji: '🏥' },
-  { bg: 'bg-yellow-200', emoji: '✂️' },
-  { bg: 'bg-purple-200', emoji: '🐶' },
+interface IllustrationProps {
+  className?: string
+}
+
+const galleryItems: { bg: string; Illustration: ComponentType<IllustrationProps> }[] = [
+  { bg: 'bg-primary/5', Illustration: GalleryConsultation },
+  { bg: 'bg-blue-50', Illustration: GalleryGrooming },
+  { bg: 'bg-rose-50', Illustration: GallerySurgery },
+  { bg: 'bg-amber-50', Illustration: GalleryPetshop },
+  { bg: 'bg-green-50', Illustration: GalleryFamily },
+  { bg: 'bg-violet-50', Illustration: GalleryPlaytime },
 ]
 
 export default function Gallery() {
@@ -20,12 +33,12 @@ export default function Gallery() {
         </h2>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {placeholders.map((p, i) => (
+          {galleryItems.map(({ bg, Illustration }, i) => (
             <div
               key={i}
-              className={`${p.bg} rounded-2xl aspect-square flex items-center justify-center text-6xl`}
+              className={`${bg} rounded-2xl aspect-square flex items-center justify-center p-4`}
             >
-              {p.emoji}
+              <Illustration className="w-full h-full" />
             </div>
           ))}
         </div>

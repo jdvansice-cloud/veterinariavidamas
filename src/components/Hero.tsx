@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { FaWhatsapp } from 'react-icons/fa'
+import { HeroPets } from './illustrations'
 
 export default function Hero() {
   const { t } = useTranslation()
@@ -10,7 +11,7 @@ export default function Hero() {
       className="bg-primary min-h-screen flex items-center justify-center text-white text-center px-4 pt-16"
     >
       <div className="max-w-3xl">
-        <div className="text-6xl mb-6">🐾</div>
+        <HeroPets className="w-48 h-48 md:w-72 md:h-72 mx-auto mb-6" />
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
           {t('hero.title')}
         </h1>

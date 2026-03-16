@@ -1,14 +1,26 @@
 import { useTranslation } from 'react-i18next'
-import { FaStethoscope, FaFlask, FaPills, FaShoppingBag, FaCut, FaHeart } from 'react-icons/fa'
+import {
+  ServiceClinic,
+  ServiceLab,
+  ServicePharmacy,
+  ServicePetshop,
+  ServiceGrooming,
+  ServiceFuneral,
+} from './illustrations'
+import type { ComponentType } from 'react'
 
-const serviceKeys = [
-  { key: 'clinic', icon: FaStethoscope },
-  { key: 'lab', icon: FaFlask },
-  { key: 'pharmacy', icon: FaPills },
-  { key: 'petshop', icon: FaShoppingBag },
-  { key: 'grooming', icon: FaCut },
-  { key: 'funeral', icon: FaHeart },
-] as const
+interface IllustrationProps {
+  className?: string
+}
+
+const serviceKeys: { key: string; icon: ComponentType<IllustrationProps> }[] = [
+  { key: 'clinic', icon: ServiceClinic },
+  { key: 'lab', icon: ServiceLab },
+  { key: 'pharmacy', icon: ServicePharmacy },
+  { key: 'petshop', icon: ServicePetshop },
+  { key: 'grooming', icon: ServiceGrooming },
+  { key: 'funeral', icon: ServiceFuneral },
+]
 
 export default function Services() {
   const { t } = useTranslation()
@@ -25,8 +37,8 @@ export default function Services() {
               key={key}
               className="bg-white rounded-2xl shadow-md p-8 text-center hover:shadow-xl transition-shadow"
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 text-primary rounded-full mb-4">
-                <Icon className="text-2xl" />
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full mb-4">
+                <Icon className="w-12 h-12" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 {t(`services.${key}`)}
