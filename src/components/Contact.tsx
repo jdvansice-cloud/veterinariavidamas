@@ -92,7 +92,7 @@ export default function Contact() {
           <div className="rounded-2xl overflow-hidden shadow-md h-80 lg:h-auto">
             <iframe
               title="Veterinaria Vida+ Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8!2d-79.4467!3d9.0133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8f1dbe80363%3A0xbce39494d8a75b69!2sCiudad%20Radial!5e0!3m2!1ses!2spa!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1970.4!2d-79.4326703!3d9.0459888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fab558e233e305d%3A0xd629347f5f8e701d!2sVeterinaria%20Vida%20%2B!5e0!3m2!1ses!2spa!4v1"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '320px' }}
