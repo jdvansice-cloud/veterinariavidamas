@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { FaPhone, FaWhatsapp, FaMapMarkerAlt, FaClock, FaInstagram } from 'react-icons/fa'
+import { FaPhone, FaWhatsapp, FaMapMarkerAlt, FaClock, FaInstagram, FaStar, FaGoogle } from 'react-icons/fa'
 
 export default function Contact() {
   const { t } = useTranslation()
@@ -13,6 +13,22 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-6">
+            {/* Google Rating Badge */}
+            <div className="bg-white rounded-xl shadow-sm p-4 flex items-center gap-4 mb-2">
+              <div className="w-12 h-12 bg-blue-50 text-blue-500 rounded-full flex items-center justify-center shrink-0">
+                <FaGoogle className="text-xl" />
+              </div>
+              <div>
+                <div className="flex items-center gap-1">
+                  <span className="text-2xl font-extrabold text-gray-800">5.0</span>
+                  <div className="flex text-yellow-400 ml-1">
+                    <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
+                  </div>
+                </div>
+                <p className="text-sm text-gray-500">Google Reviews</p>
+              </div>
+            </div>
+
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center shrink-0">
                 <FaPhone />
@@ -76,7 +92,7 @@ export default function Contact() {
           <div className="rounded-2xl overflow-hidden shadow-md h-80 lg:h-auto">
             <iframe
               title="Veterinaria Vida+ Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.5!2d-79.45!3d9.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sJuan+Diaz+Ciudad+Radial+Panama!5e0!3m2!1ses!2spa!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8!2d-79.4467!3d9.0133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca8f1dbe80363%3A0xbce39494d8a75b69!2sCiudad%20Radial!5e0!3m2!1ses!2spa!4v1"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '320px' }}
