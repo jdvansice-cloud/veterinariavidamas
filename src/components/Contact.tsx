@@ -45,8 +45,8 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-bold text-gray-800">{t('contact.whatsapp')}</h3>
-                <a href="https://wa.me/5076678631" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-600">
-                  (507) 6678-6310
+                <a href="https://wa.me/50766386310" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-600">
+                  (507) 6638-6310
                 </a>
               </div>
             </div>

@@ -35,8 +35,8 @@ export default function Footer() {
               <a href="tel:+5073961796" className="flex items-center gap-2 hover:text-white">
                 <FaPhone /> (507) 396-1796
               </a>
-              <a href="https://wa.me/5076678631" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white">
-                <FaWhatsapp /> (507) 6678-6310
+              <a href="https://wa.me/50766386310" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white">
+                <FaWhatsapp /> (507) 6638-6310
               </a>
               <a href="https://www.instagram.com/veterinariavidamas/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white">
                 <FaInstagram /> @veterinariavidamas

@@ -19,7 +19,7 @@ export default function Hero() {
           {t('hero.subtitle')}
         </p>
         <a
-          href="https://wa.me/5076678631"
+          href="https://wa.me/50766386310"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full text-lg transition-transform hover:scale-105"
