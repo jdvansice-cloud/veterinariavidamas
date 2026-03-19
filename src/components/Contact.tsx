@@ -35,7 +35,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-bold text-gray-800">{t('contact.phone')}</h3>
-                <a href="tel:+5072391796" className="text-gray-600 hover:text-primary">(507) 239-1796</a>
+                <a href="tel:+5073961796" className="text-gray-600 hover:text-primary">(507) 396-1796</a>
               </div>
             </div>
 
@@ -45,8 +45,8 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="font-bold text-gray-800">{t('contact.whatsapp')}</h3>
-                <a href="https://wa.me/5076638631" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-600">
-                  (507) 6638-6310
+                <a href="https://wa.me/5076678631" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-600">
+                  (507) 6678-6310
                 </a>
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function Contact() {
           <div className="rounded-2xl overflow-hidden shadow-md h-80 lg:h-auto">
             <iframe
               title="Veterinaria Vida+ Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1970.4!2d-79.4326703!3d9.0459888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fab558e233e305d%3A0xd629347f5f8e701d!2sVeterinaria%20Vida%20%2B!5e0!3m2!1ses!2spa!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1970.4!2d-79.4328847!3d9.0458634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fab553eb7c5c58d%3A0xed1a6d6e2ee2491c!2sVeterinaria%20Vida%20M%C3%A1s!5e0!3m2!1ses!2spa!4v1"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: '320px' }}

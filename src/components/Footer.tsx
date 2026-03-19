@@ -32,11 +32,11 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">{t('contact.title')}</h4>
             <div className="space-y-2 text-sm text-white/70">
-              <a href="tel:+5072391796" className="flex items-center gap-2 hover:text-white">
-                <FaPhone /> (507) 239-1796
+              <a href="tel:+5073961796" className="flex items-center gap-2 hover:text-white">
+                <FaPhone /> (507) 396-1796
               </a>
-              <a href="https://wa.me/5076638631" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white">
-                <FaWhatsapp /> (507) 6638-6310
+              <a href="https://wa.me/5076678631" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white">
+                <FaWhatsapp /> (507) 6678-6310
               </a>
               <a href="https://www.instagram.com/veterinariavidamas/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white">
                 <FaInstagram /> @veterinariavidamas
