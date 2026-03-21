@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { FaWhatsapp, FaPhone } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa'
 
 const photos = [
   { src: '/images/hero-vet-cat.png', alt: 'Veterinario examinando gato' },
@@ -30,8 +30,8 @@ export default function Hero() {
               {t('hero.subtitle')}
             </p>
 
-            {/* Contact info */}
-            <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mb-8">
+            {/* CTA + WhatsApp number */}
+            <div className="flex flex-col items-center lg:items-start gap-3">
               <a
                 href="https://wa.me/50766386310"
                 target="_blank"
@@ -41,19 +41,7 @@ export default function Hero() {
                 <FaWhatsapp className="text-2xl" />
                 {t('hero.cta')}
               </a>
-              <a
-                href="tel:+5073961796"
-                className="inline-flex items-center gap-2 text-white/80 hover:text-white text-lg transition-colors"
-              >
-                <FaPhone />
-                (507) 396-1796
-              </a>
-            </div>
-
-            {/* WhatsApp number displayed */}
-            <div className="flex items-center justify-center lg:justify-start gap-2 text-white/70 text-sm">
-              <FaWhatsapp className="text-green-400" />
-              <span>(507) 6638-6310</span>
+              <span className="text-white/80 text-lg">+507 6638-6310</span>
             </div>
           </div>
 
