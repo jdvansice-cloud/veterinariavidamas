@@ -31,7 +31,7 @@ export default function Hero() {
             </p>
 
             {/* CTA + WhatsApp number */}
-            <div className="flex flex-col items-center lg:items-start gap-3">
+            <div className="inline-flex flex-col items-center gap-3">
               <a
                 href="https://wa.me/50766386310"
                 target="_blank"
