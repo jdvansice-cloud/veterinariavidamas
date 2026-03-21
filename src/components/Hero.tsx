@@ -5,6 +5,7 @@ const photos = [
   { src: '/images/hero-vet-cat.png', alt: 'Veterinario examinando gato' },
   { src: '/images/hero-pharmacy.png', alt: 'Farmacia veterinaria' },
   { src: '/images/hero-pug.png', alt: 'Consulta veterinaria con pug' },
+  { src: '/images/hero-grooming.png', alt: 'Peluquería canina Vida+' },
   { src: '/images/hero-petshop.png', alt: 'Pet Shop Vida+' },
 ]
 
@@ -62,7 +63,7 @@ export default function Hero() {
               <div
                 key={i}
                 className={`rounded-2xl overflow-hidden shadow-lg ${
-                  i === 3 ? 'col-span-2 aspect-video' : 'aspect-square'
+                  i === 4 ? 'col-span-2 aspect-video' : 'aspect-square'
                 }`}
               >
                 <img
