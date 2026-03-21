@@ -39,17 +39,39 @@
     "req4": "Older than 5 months"
   },
   "groomingSection": {
-    "title": "Grooming",
-    "service": "Service",
-    "small": "Small",
-    "medium": "Medium",
-    "large": "Large",
-    "bathCutRegular": "Bath & Cut Regular",
-    "bathCutMedicated": "Bath & Cut Medicated",
-    "bathMedicated": "Medicated Bath",
-    "bathDeshedding": "Bath & Deshedding",
-    "bathChihuahua": "Chihuahua Bath",
-    "bathFeline": "Feline Bath"
+    "title": "Our Grooming Services & Packages",
+    "pkg1Title": "BATHS",
+    "pkg1Price": "$12.99",
+    "pkg1From": "From",
+    "pkg1Items": [
+      "Shampoo & conditioner bath",
+      "Blow dry",
+      "Towel dry",
+      "Ear cleaning",
+      "Nail trimming"
+    ],
+    "pkg2Title": "BATH & HAIRCUT",
+    "pkg2Price": "$24.99",
+    "pkg2From": "From",
+    "pkg2Items": [
+      "Shampoo & conditioner bath",
+      "Full body haircut",
+      "Face, paws & sanitary trim",
+      "Full coat brushing",
+      "Scissor finish",
+      "Nail trimming",
+      "Ear cleaning"
+    ],
+    "pkg3Title": "CAT BATH",
+    "pkg3Price": "$19.99",
+    "pkg3From": "From",
+    "pkg3Items": [
+      "Shampoo & conditioner bath",
+      "Blow dry",
+      "Towel dry",
+      "Nail trimming",
+      "Ear cleaning"
+    ]
   },
   "about": {
     "title": "About Us",

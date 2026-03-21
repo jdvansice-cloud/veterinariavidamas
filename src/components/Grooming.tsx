@@ -1,12 +1,10 @@
 import { useTranslation } from 'react-i18next'
+import { FaPaw, FaCut, FaCat } from 'react-icons/fa'
 
-const prices = [
-  { key: 'bathCutRegular', small: '$20.00', medium: '$22.00', large: '$25.00' },
-  { key: 'bathCutMedicated', small: '$22.00', medium: '$24.00', large: '$27.00' },
-  { key: 'bathMedicated', small: '$17.00', medium: '$18.00', large: '$21.00' },
-  { key: 'bathDeshedding', small: '—', medium: '—', large: '$30.00' },
-  { key: 'bathChihuahua', small: '$13.00', medium: '—', large: '—' },
-  { key: 'bathFeline', small: '$17.00', medium: '—', large: '—' },
+const packages = [
+  { num: 1, key: 'pkg1', Icon: FaPaw },
+  { num: 2, key: 'pkg2', Icon: FaCut },
+  { num: 3, key: 'pkg3', Icon: FaCat },
 ] as const
 
 export default function Grooming() {
@@ -14,34 +12,54 @@ export default function Grooming() {
 
   return (
     <section id="grooming" className="py-20 bg-gray-50">
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center text-primary mb-12">
           {t('groomingSection.title')}
         </h2>
 
-        <div className="overflow-x-auto">
-          <table className="w-full bg-white rounded-2xl shadow-md overflow-hidden">
-            <thead>
-              <tr className="bg-primary text-white">
-                <th className="text-left py-4 px-6 font-semibold">{t('groomingSection.service')}</th>
-                <th className="py-4 px-4 font-semibold text-center">{t('groomingSection.small')}</th>
-                <th className="py-4 px-4 font-semibold text-center">{t('groomingSection.medium')}</th>
-                <th className="py-4 px-4 font-semibold text-center">{t('groomingSection.large')}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {prices.map((row, i) => (
-                <tr key={row.key} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                  <td className="py-4 px-6 font-medium text-gray-800">
-                    {t(`groomingSection.${row.key}`)}
-                  </td>
-                  <td className="py-4 px-4 text-center text-gray-700">{row.small}</td>
-                  <td className="py-4 px-4 text-center text-gray-700">{row.medium}</td>
-                  <td className="py-4 px-4 text-center text-gray-700">{row.large}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {packages.map(({ num, key, Icon }) => {
+            const items = t(`groomingSection.${key}Items`, { returnObjects: true }) as string[]
+            return (
+              <div
+                key={key}
+                className="bg-white rounded-2xl shadow-md border border-gray-100 p-8 hover:shadow-xl transition-shadow"
+              >
+                {/* Number badge + title */}
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-full border-2 border-primary text-primary flex items-center justify-center font-bold text-lg shrink-0">
+                    {num}
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-extrabold text-gray-800 uppercase tracking-wide">
+                      {t(`groomingSection.${key}Title`)}
+                    </h3>
+                    <p className="text-sm text-gray-500">
+                      {t(`groomingSection.${key}From`)}{' '}
+                      <span className="text-2xl font-extrabold text-primary">
+                        {t(`groomingSection.${key}Price`)}
+                      </span>
+                    </p>
+                  </div>
+                </div>
+
+                {/* Icon */}
+                <div className="flex justify-center mb-6">
+                  <Icon className="text-primary/20 text-5xl" />
+                </div>
+
+                {/* Service list */}
+                <ul className="space-y-2">
+                  {items.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2 text-gray-700 text-sm">
+                      <span className="text-primary mt-0.5">•</span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )
+          })}
         </div>
       </div>
     </section>

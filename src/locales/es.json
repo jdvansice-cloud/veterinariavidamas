@@ -39,17 +39,39 @@
     "req4": "Mayor a 5 meses"
   },
   "groomingSection": {
-    "title": "Peluquería",
-    "service": "Servicio",
-    "small": "Pequeño",
-    "medium": "Mediano",
-    "large": "Grande",
-    "bathCutRegular": "Baño y corte Regular",
-    "bathCutMedicated": "Baño y corte Medicado",
-    "bathMedicated": "Baño Medicado",
-    "bathDeshedding": "Baño y deslanado",
-    "bathChihuahua": "Baño Chihuahua",
-    "bathFeline": "Baño Felino"
+    "title": "Nuestros Servicios de Peluquería",
+    "pkg1Title": "BAÑOS",
+    "pkg1Price": "$12.99",
+    "pkg1From": "Desde",
+    "pkg1Items": [
+      "Baño con shampoo y acondicionador",
+      "Secado con sopladora",
+      "Secado con toalla",
+      "Limpieza de oídos",
+      "Corte de uñas"
+    ],
+    "pkg2Title": "BAÑO Y CORTE",
+    "pkg2Price": "$24.99",
+    "pkg2From": "Desde",
+    "pkg2Items": [
+      "Baño con shampoo y acondicionador",
+      "Corte completo del cuerpo",
+      "Arreglo de cara, patas y zona higiénica",
+      "Cepillado completo del pelaje",
+      "Acabado a tijera",
+      "Corte de uñas",
+      "Limpieza de oídos"
+    ],
+    "pkg3Title": "BAÑO DE GATOS",
+    "pkg3Price": "$19.99",
+    "pkg3From": "Desde",
+    "pkg3Items": [
+      "Baño con shampoo y acondicionador",
+      "Secado con sopladora",
+      "Secado con toalla",
+      "Corte de uñas",
+      "Limpieza de oídos"
+    ]
   },
   "about": {
     "title": "Sobre Nosotros",
