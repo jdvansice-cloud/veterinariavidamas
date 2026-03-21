@@ -1,8 +1,8 @@
 // Brand colors for SVG illustrations
 export const COLORS = {
-  primary: '#1a5fb4',
-  primaryDark: '#154d94',
-  primaryLight: '#2a7de6',
+  primary: '#017AAB',
+  primaryDark: '#016490',
+  primaryLight: '#0199d5',
   accent: '#e74c3c',
   accentDark: '#c0392b',
   beige: '#d4c5a0',
